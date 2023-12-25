@@ -46,3 +46,26 @@ console.log(Math.pow(3, 2));
 
 console.log(Math.E);
 
+let nums = [2, 5, -10, 20];
+
+console.log(Math.max(...nums));
+
+console.log(Math.min(...nums));
+
+console.log(Math.log(2))        // 0.6931471805599453
+console.log(Math.log(10))       // 2.302585092994046
+
+
+let space = ' '           // an empty space string
+let firstName = 'Asabeneh'
+let lastName = 'Yetayeh'
+let country = 'Finland'
+let city = 'Helsinki'
+let language = 'JavaScript'
+let job = 'teacher'
+let quote = "The saying,'Seeing is Believing' is not correct in 2020."
+let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`
+
+let fullName = firstName + space + lastName;
+console.log(fullName);
+

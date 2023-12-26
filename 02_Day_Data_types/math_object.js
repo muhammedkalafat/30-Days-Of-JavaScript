@@ -103,3 +103,13 @@ let country2 = 'Finland'
 console.log(country2.replace('Fin', 'Noman'))       // Nomanland
 
 
+let challenge = '30 Days Of JavaScript'
+console.log(challenge)
+console.log(challenge.toUpperCase)
+
+let yazi = '30 Days Of JavaScript'
+
+console.log(yazi.toUpperCase());
+
+
+

@@ -52,64 +52,68 @@ console.log(Math.max(...nums));
 
 console.log(Math.min(...nums));
 
-console.log(Math.log(2))        // 0.6931471805599453
-console.log(Math.log(10))       // 2.302585092994046
+console.log(Math.log(2)); // 0.6931471805599453
+console.log(Math.log(10)); // 2.302585092994046
 
-
-let space = ' '           // an empty space string
-let firstName = 'Asabeneh'
-let lastName = 'Yetayeh'
-let country = 'Finland'
-let city = 'Helsinki'
-let language = 'JavaScript'
-let job = 'teacher'
-let quote = "The saying,'Seeing is Believing' is not correct in 2020."
-let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`
+let space = " "; // an empty space string
+let firstName = "Asabeneh";
+let lastName = "Yetayeh";
+let country = "Finland";
+let city = "Helsinki";
+let language = "JavaScript";
+let job = "teacher";
+let quote = "The saying,'Seeing is Believing' is not correct in 2020.";
+let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.`;
 
 let fullName = firstName + space + lastName;
 console.log(fullName);
 
-let string = '30 Days Of JavaScript'
+let string = "30 Days Of JavaScript";
 
-console.log(string.includes('Days'))     // true
-console.log(string.includes('days'))     // false - it is case sensitive!
-console.log(string.includes('Script'))   // true
-console.log(string.includes('script'))   // false
-console.log(string.includes('java'))     // false
-console.log(string.includes('Java'))     // true
+console.log(string.includes("Days")); // true
+console.log(string.includes("days")); // false - it is case sensitive!
+console.log(string.includes("Script")); // true
+console.log(string.includes("script")); // false
+console.log(string.includes("java")); // false
+console.log(string.includes("Java")); // true
 
+let country1 = "Finland";
 
-let country1 = 'Finland'
+console.log(country.includes("fin")); // false
+console.log(country.includes("Fin")); // true
+console.log(country.includes("land")); // true
+console.log(country.includes("Land")); // false
 
-console.log(country.includes('fin'))     // false
-console.log(country.includes('Fin'))     // true
-console.log(country.includes('land'))    // true
-console.log(country.includes('Land'))    // false
+let string1 = "   30 Days Of JavaScript   ";
 
-let string1 = '   30 Days Of JavaScript   '
+console.log(string1);
+console.log(string1.trim(" "));
 
-console.log(string1)
-console.log(string1.trim(' '))
+let firstName1 = " Asabeneh ";
 
-let firstName1 = ' Asabeneh '
+console.log(firstName1);
+console.log(firstName1.trim());
 
-console.log(firstName1)
-console.log(firstName1.trim())
+let string2 = "30 Days Of JavaScript";
+console.log(string2.replace("JavaScript", "Python")); // 30 Days Of Python
 
-let string2 = '30 Days Of JavaScript'
-console.log(string2.replace('JavaScript', 'Python')) // 30 Days Of Python
+let country2 = "Finland";
+console.log(country2.replace("Fin", "Noman")); // Nomanland
 
-let country2 = 'Finland'
-console.log(country2.replace('Fin', 'Noman'))       // Nomanland
+let challenge = "30 Days Of JavaScript";
 
-
-let challenge = '30 Days Of JavaScript'
-console.log(challenge)
-console.log(challenge.toUpperCase)
-
-let yazi = '30 Days Of JavaScript'
-
-console.log(yazi.toUpperCase());
+console.log(challenge);
+console.log(challenge.toLowerCase);
 
 
+let tech = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
+
+console.log(tech.split(","));
+console.log(tech.replace(", ", " - "));
+
+let string3 = '30 Days Of JavaScript'
+
+console.log(string3.charAt(15));
+
+console.log(string3.charCodeAt('J'));
 

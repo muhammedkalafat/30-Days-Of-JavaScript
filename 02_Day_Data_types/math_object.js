@@ -69,3 +69,37 @@ let quotWithBackTick = `The saying,'Seeing is Believing' is not correct in 2020.
 let fullName = firstName + space + lastName;
 console.log(fullName);
 
+let string = '30 Days Of JavaScript'
+
+console.log(string.includes('Days'))     // true
+console.log(string.includes('days'))     // false - it is case sensitive!
+console.log(string.includes('Script'))   // true
+console.log(string.includes('script'))   // false
+console.log(string.includes('java'))     // false
+console.log(string.includes('Java'))     // true
+
+
+let country1 = 'Finland'
+
+console.log(country.includes('fin'))     // false
+console.log(country.includes('Fin'))     // true
+console.log(country.includes('land'))    // true
+console.log(country.includes('Land'))    // false
+
+let string1 = '   30 Days Of JavaScript   '
+
+console.log(string1)
+console.log(string1.trim(' '))
+
+let firstName1 = ' Asabeneh '
+
+console.log(firstName1)
+console.log(firstName1.trim())
+
+let string2 = '30 Days Of JavaScript'
+console.log(string2.replace('JavaScript', 'Python')) // 30 Days Of Python
+
+let country2 = 'Finland'
+console.log(country2.replace('Fin', 'Noman'))       // Nomanland
+
+
